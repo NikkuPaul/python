@@ -37,8 +37,8 @@ def generate_pdf_report(data):
     pdf.cell(200, 10, txt="Monthly CO2 Emissions Report", ln=True, align="C")
     pdf.ln(10)
     pdf.set_font("Arial", style="B", size=14)
-    pdf.cell(200, 10, txt=f"Name: Ombir", ln=True, align="L")
-    pdf.cell(200, 10, txt=f"Email: ombiryadav4@gmail.com", ln=True, align="L")
+    pdf.cell(200, 10, txt=f"Name: Nikhil", ln=True, align="L")
+    pdf.cell(200, 10, txt=f"Email: paulnikhil881@gmail.com@gmail.com", ln=True, align="L")
     pdf.ln(10)
     # Energy usage section
     pdf.set_font("Arial", size=12, style="B")
